@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/weather.png" type="image/x-icon">
+    <title>Weather App | By Mahi Rathod</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card-head">
+            <input class="search-bar" type="text" placeholder="Enter City Name" spellcheck="false">
+            <button class="search-btn"><img src="./images/search.png" height="10px" alt=""></button>
+        </div>
+        <div class="error"><span>Invalid City Name </span><img src="./images/warn.png" height="16px"></div>
+        <div class="weather">
+            <img src="./images/drizzle.png" height="80px" class="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="./images/humidity.png"  alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p class="name"
+                        ">Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./images/wind.png" alt="">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p class="name">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="App.js"></script>
+</body>
+</html>
